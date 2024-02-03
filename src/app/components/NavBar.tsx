@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "/public/logo.webp";
+import logo from "/public/tgt-logo.webp";
 import Link from "next/link";
 
 export default function NavBar() {
