@@ -22,7 +22,7 @@ export default function TaskCard({ taskName, taskDescription }: TaskCardProps) {
       id="taskCard"
     >
       <h3>{taskName}</h3>
-      <p>{taskDescription}</p>
+      <p className="mb-2 text-lg">{taskDescription}</p>
       <label>
         Complete?
         <input

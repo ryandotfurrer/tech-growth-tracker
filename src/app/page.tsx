@@ -11,7 +11,15 @@ export default function Home() {
         />
         <TaskCard
           taskName="X Posts"
-          taskDescription="Schedule four posts on X per day. Blog posts can become four tweets."
+          taskDescription="Schedule one to four posts on X per day. Blog posts can broken down into four tweets each."
+        />
+        <TaskCard
+          taskName="Blog Post"
+          taskDescription="Write one blog post per week."
+        />
+        <TaskCard
+          taskName="Newsletter"
+          taskDescription="Write one newsletter per week."
         />
       </section>
     </main>
