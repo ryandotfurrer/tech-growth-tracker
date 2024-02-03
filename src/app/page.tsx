@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main className="flow">
       <section className="flow">
-        <h2 className="text-center">Tasks</h2>
+        <h2 className="py-12 text-center">Tasks</h2>
         <TaskCard
           taskName="LinkedIn Posts"
           taskDescription="Schedule one post on LinkedIn per day. Blog posts can be summarized and linked to on LinkedIn."

@@ -57,6 +57,11 @@
     @apply text-lg; /* clamp(1.35rem, 1.2761rem + 0.3696vw, 1.5625rem) */
   }
 
+  p,
+  a {
+    @apply text-base;
+  }
+
   a {
     @apply underline underline-offset-2 hover:text-neutral-900 dark:hover:text-neutral-100;
   }

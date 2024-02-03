@@ -2,13 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 import Hero from "./components/Hero";
 
 export const metadata: Metadata = {
-  title: "Next.JS template with Tailwind CSS",
+  title: "Tech Growth Tracker",
   description:
-    "A basic and largely un-opinionated starter template using Next.JS and Tailwind CSS.",
+    "Track activities, ideas, and projects to help push your tech career forward.",
 };
 
 export default function RootLayout({
@@ -18,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flow mx-auto grid max-h-screen max-w-screen-lg text-pretty bg-white px-4 py-6 leading-relaxed text-neutral-500 dark:bg-black">
+      <body className="flow mx-auto grid max-h-screen max-w-screen-lg text-pretty bg-white px-4 py-6 leading-relaxed text-neutral-500 dark:bg-black dark:text-neutral-400">
         <NavBar />
         <Hero
           title="Tech Growth Tracker"
@@ -26,7 +25,6 @@ export default function RootLayout({
         />
         {children}
         <Footer />
-        <SpeedInsights />
       </body>
     </html>
   );

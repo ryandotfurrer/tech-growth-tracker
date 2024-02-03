@@ -22,13 +22,13 @@ export default function TaskCard({ taskName, taskDescription }: TaskCardProps) {
       id="taskCard"
     >
       <h3>{taskName}</h3>
-      <p className="mb-2 text-lg">{taskDescription}</p>
-      <label>
+      <p className="py-2">{taskDescription}</p>
+      <label className="text-sm">
         Complete?
         <input
           type="checkbox"
           id={taskName}
-          className="ml-4"
+          className="ml-2"
           checked={isChecked}
           onChange={checkHandler}
         />
