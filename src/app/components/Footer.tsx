@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="py-8 text-center">
       <p>
         <small>
           Made by{" "}

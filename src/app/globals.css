@@ -8,6 +8,10 @@
     @apply min-w-0;
   }
 
+  body {
+    grid-template-rows: auto 1fr auto;
+  }
+
   h1,
   h2,
   h3,
