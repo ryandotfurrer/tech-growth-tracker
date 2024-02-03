@@ -1,7 +1,6 @@
 import Image from "next/image";
 import logo from "/public/logo.webp";
 import Link from "next/link";
-import copyEmailTitle from "../../../public/copyEmailTitle";
 
 export default function NavBar() {
   return (
@@ -15,7 +14,7 @@ export default function NavBar() {
                 src={logo}
                 width={65}
                 height={65}
-                alt="next logo"
+                alt="ryan furrer memoji logo"
                 priority
               />
             </Link>
@@ -24,8 +23,9 @@ export default function NavBar() {
         <li>
           <Link
             className="no-underline hover:underline"
-            href="https://github.com/ryanfurrer/next-tailwind-starter"
+            href="https://github.com/ryanfurrer/tech-growth-tracker"
             target="_blank"
+            rel="noopener noreferrer"
           >
             GitHub
           </Link>
@@ -35,16 +35,10 @@ export default function NavBar() {
             className="no-underline hover:underline"
             href="https://ryanfurrer.com"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Portfolio
           </Link>
-        </li>
-        <li
-          className="cursor-pointer hover:text-neutral-900  hover:underline dark:hover:text-neutral-100"
-          title="ryandotfurrer@gmail.com"
-          onClick={copyEmailTitle}
-        >
-          Email Me
         </li>
       </ul>
     </nav>
