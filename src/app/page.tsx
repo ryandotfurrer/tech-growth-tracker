@@ -3,9 +3,9 @@ import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <main className="flow pt-24">
+    <main className="flow">
       <section className="flow">
-        <h2 className="pb-12 text-center">Tasks</h2>
+        <h2 className="text-center">Tasks</h2>
         <TaskCard
           taskName="LinkedIn Posts"
           taskDescription="Schedule one post on LinkedIn per day. Blog posts can be summarized and linked to on LinkedIn."

@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <nav>
+    <nav className="flow">
       <ul className="flex items-center gap-3">
         <div id="logo-container" className="mr-auto">
           <li className="justify-start">

@@ -5,9 +5,9 @@ type HeroProps = {
 
 export default function Hero({ title, description }: HeroProps) {
   return (
-    <header>
+    <header className="flow mx-auto max-w-prose py-36 text-center">
       <h1>{title}</h1>
-      <p className="text-2xl">{description}</p>
+      <p className="text-balance text-2xl">{description}</p>
     </header>
   );
 }
