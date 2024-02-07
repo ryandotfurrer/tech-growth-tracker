@@ -14,7 +14,7 @@ export default function NavBar() {
                 src={logo}
                 width={65}
                 height={65}
-                alt="ryan furrer memoji logo"
+                alt="Tech Growth Tracker Logo"
                 priority
               />
             </Link>
